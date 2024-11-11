@@ -103,6 +103,38 @@ To make the simulation more accurate, visually appealing, and modular, the next 
 5. **Performance Optimizations**:
     - **Level of Detail (LOD)**: Implement LOD techniques to reduce the detail of distant objects.
     - **Frustum Culling**: Improve performance by only rendering objects within the visible area of the camera.
+## Next Steps
+
+To enhance and refine the 3D space simulation, here are the planned improvements:
+
+1. **Object-Oriented Refactoring**: 
+   - Transition the project to an object-oriented structure to improve modularity and maintainability.
+   - Create specific classes for different types of celestial bodies (`Planet`, `Moon`, `Star`, `Galaxy`, etc.).
+   - Implement a `SolarSystem` or `Scene` class to manage interactions, rendering, and updates between objects.
+
+2. **Visual Enhancements**:
+   - **Detailed Models**: Improve each celestial body by increasing resolution for smoother shapes and adding features like more accurate rings, layered planets, and varied galaxy spirals.
+   - **Texture Mapping**: Apply realistic textures to planets and galaxies for more detailed visuals.
+   - **Shader Refinements**: Optimize and customize shaders for color, atmosphere effects, and possibly add a glow for stars or a subtle haze for gas giants.
+
+3. **Lighting and Shadows**:
+   - **Dynamic Lighting**: Introduce light sources, such as the Sun, to illuminate planets and add depth with light and shadow effects.
+   - **Shadow Casting**: Implement shadows cast by planets and moons for improved realism and depth within the scene.
+
+4. **Physics-Based Movement and Scaling**:
+   - **Accurate Distances and Orbital Speeds**: Adjust distances and speeds to more closely reflect actual astronomical values, scaling down where needed.
+   - **Physics Calculations**: Add basic gravitational physics for orbits, enabling more realistic and accurate movements.
+   - **Orbital Inclinations**: Incorporate slight orbital inclinations to make the planetary orbits and galaxy rotations appear more natural.
+
+5. **Performance Optimizations**:
+   - **Level of Detail (LOD)**: Implement LOD techniques to lower the detail of distant objects, reducing rendering load and improving performance.
+   - **Frustum Culling**: Ensure only visible objects within the camera’s view are rendered, further optimizing resource usage.
+
+6. **User Experience Improvements**:
+   - **Interactive Controls**: Add options for users to toggle lighting effects, zoom levels, or switch between different viewing perspectives.
+   - **HUD Elements**: Enhance the HUD with more dynamic information about the Solar System, distances, and orbital speeds.
+
+Stay tuned for updates as these features are gradually implemented, and feel free to follow the project on GitHub to track progress!
 
 ## Conclusion
 
