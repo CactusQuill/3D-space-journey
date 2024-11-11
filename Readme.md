@@ -2,6 +2,9 @@
 
 A **3D space simulation** built using `Pyglet`, `ModernGL`, and `Pyrr` libraries. This project visualizes a miniaturized version of the **Solar System**, including **orbiting moons**, **Saturn’s ring**, **galaxies**, and **distant stars** to create an immersive space exploration experience. The simulation includes a counter that tracks Earth's orbits around the Sun in real-time.
 
+
+
+![Alt text describing the image](/current_layout/Test/pic1.png)
 ## Table of Contents
 
 - [Project Overview](#project-overview)
